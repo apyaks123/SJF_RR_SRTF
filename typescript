@@ -1,0 +1,103 @@
+Script started on 2021-03-23 22:27:09-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Assignment3[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Assignment3[00m$ python3.8 3Algprithms.py 
+--------------------------------------------------
+----------SJF SCHEDULING--------------------------
+
+A 1 Process
+B 5 Process
+D 6 Process
+C 8 Process
+H 10 Process
+G 13 Process
+E 25 Process
+F 30 Completed
+--------------------------------------------------
+----------Summary Statistics--------------------------
+
+Process-- Turnaround time --Waiting time
+A          1             0
+B          5             1
+C          8             6
+D          6             5
+E          25             13
+F          30             25
+G          13             10
+H          10             8
+Average     19.6        13.6
+--------------------------------------------------
+-------------RR Scheduling-------------------------
+A 1 Process preempted by process with shorter burst time
+B 3 Quantom Expired
+C 2 Process preempted by process with shorter burst time
+D 1 Process preempted by process with shorter burst time
+E 3 Quantom Expired
+F 3 Quantom Expired
+G 3 Process completed
+H 2 Process preempted by process with shorter burst time
+B 1 Process preempted by process with shorter burst time
+E 3 Quantom Expired
+F 2 Process preempted by process with shorter burst time
+E 3 Quantom Expired
+E 3 Process completed
+Complete
+---------------------------------------------------
+-------------Summary-------------------------------
+Process ID--Turnaround time--Waiting time----
+A             1                  0
+B             19                  15
+C             6                  4
+D             7                  6
+E             30                  18
+F             24                  19
+G             18                  15
+H             22                  20
+Average       25.4             19.4
+--------------------------------------------------
+-------------SRTF Scheduling-------------------------
+A 0 1 Process completed
+B 0 4 Quantom Expired
+D 2 1 Process  completed
+E 3 12 Quantoms Expired
+B 0 3 Quantom Expired
+B 0 2 Complete
+B 0 1 Process completed
+C 2 2 Complete
+C 2 1 Process completed
+G 5 3 Quantoms Expired
+E 3 12 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 11 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 10 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 9 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 8 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 7 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 6 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 5 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 4 Quantom Expired
+G 5 3 Quantoms Expired
+E 3 3 Quantom Expired
+E 3 2 Complete
+---------------------------------------------------
+-------------Summary-------------------------------
+Process ID--Turnaround time--Waiting time----
+A             1                  0
+B             7                  3
+C             8                  6
+D             3                  2
+E             30                  18
+F             28                  23
+G             18                  15
+H             14                  12
+Average       21.8             15.8
+--------------------------------------------------
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Assignment3[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Assignment3[00m$ exit
+exit
+
+Script done on 2021-03-23 22:27:28-07:00 [COMMAND_EXIT_CODE="0"]
